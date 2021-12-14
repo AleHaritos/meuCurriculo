@@ -1,0 +1,235 @@
+<div class="container">
+<div id="a" [ngClass]="slideTheme ? 'a_hotTheme': 'a' ">
+
+    <h1 [ngClass]="slideTheme ? 'nome_h animate__animated animate__backInDown': 'nome animate__animated animate__backInDown' ">
+        Alexandre Georges Haritos
+       </h1>
+
+    <div class="button">
+        <mat-slide-toggle name="language" color="primary" [(ngModel)]="language">
+            {{ language ?' Change to portuguese' : 'Mudar para inglês' }} 
+        </mat-slide-toggle>
+     
+
+ <div class="button1">
+    <mat-slide-toggle id="theme" name="themeButton" color="warn" [(ngModel)]="slideTheme">
+         {{ language ? 'Change theme' : 'Mudar tema' }} 
+    </mat-slide-toggle>
+
+ </div>
+</div>
+</div>
+
+<div id="b" [ngClass]="slideTheme ? 'b_hotTheme': 'b' ">
+    <mat-list class="matlist1">
+        
+        <div mat-subheader class="titleList">
+            {{ language ? 'Personal Data' : 'Dados Pessoais' }}
+        </div>
+        
+        <div class="list_container">
+            <mat-list-item>
+                <mat-icon class="iconlist">perm_identity</mat-icon>
+                {{ language ? 'Name:  Alexandre Georges Haritos' : 'Nome: Alexandre Georges Haritos' }}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">mail</mat-icon> 
+                Email: aleharitos@gmail.com
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">location_on</mat-icon> 
+               {{ language? 'Address:' : 'Endereço:'}} Rua Júlio Prestes de Albuquerque – Bragança Paulista
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">phone</mat-icon> 
+               {{ language ? 'Phone Number:' : 'Telefone:' }} 55 11 978535839  
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">date_range</mat-icon> 
+               {{ language? 'Date of Birth:' : 'Data de Nascimento:'}} 21/08/2001  
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">people</mat-icon> 
+                 <a href="https://www.linkedin.com/in/alexandre-haritos-b731111ab/"> Linkedin</a>
+            </mat-list-item>
+        </div>
+    
+    </mat-list>
+</div>
+
+
+<section [ngClass]="slideTheme ? 'c_hotTheme': 'c'" id="c">
+
+    <mat-list class="matlist2">
+    
+        <div mat-subheader class="titleList">
+            {{ language ? 'Objective' : 'Objetivos'}}    
+        </div>
+        
+        <div class="list_container">
+            <div mat-subheader class="subheader">
+                {{ language ? 'Objective of entering the technology area:' :'Objetivo de ingressar na área da tecnologia:'}}
+            </div>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">computer</mat-icon>
+                {{ language ? 'Frontend with Angular 2+ Jr/Internship' : 'Frontend com Angular 2+ Jr/Estágio'}}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">computer</mat-icon>
+                {{ language ? 'Backend with NodeJS Jr/Internship' :'Backend com NodeJS Jr/Estágio'}}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">computer</mat-icon>
+                {{ language ? 'Jr/Internship Full Stack Web Developer' :'Desenvolvedor Web Full Stack Jr/Estágio' }}
+            </mat-list-item> 
+        </div>
+    
+    </mat-list>
+</section>
+
+<section [ngClass]="slideTheme ? 'd_hotTheme': 'd'" id="d">
+
+    <mat-list class="matlist3">
+    
+        <div mat-subheader class="titleList">
+            {{ language ? 'Formations' : 'Formações'}}   
+        </div>
+        
+        <div class="list_container">
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">menu_book</mat-icon>
+                {{ language?  'Taking a course in systems analysis and development at
+                Fatec Bragança Paulista – Intention to end the course at the end of 2022' :
+              'Cursando curso superior de análise e desenvolvimento de sistemas na Fatec Bragança Paulista  – Pretensão de encerrar o curso no final de 2022' }}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">menu_book</mat-icon>
+                {{ language ? 'Complete high school at Escola Estadual Professor Paulo Silva – Completed in 2019' : 
+                'Ensino médio completo na escola Escola Estadual Professor Paulo Silva – Completo no ano de 2019' }}
+            </mat-list-item>
+    
+            
+        </div>
+    
+    </mat-list>
+
+</section>
+
+<div [ngClass]="slideTheme ? 'e_hotTheme': 'e'" id="e">
+    <mat-list class="matlist4">
+    
+        <div mat-subheader class="titleList">
+            HardSkills 
+        </div>
+
+        <div mat-subheader class="subheader">{{ language? 'Knowledge in:' :'Conhecimentos em:'}}</div>
+        
+        <div class="list_container">
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                HTML5, CSS3, JavaScript, TypeScript
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                Angular 10+, Angular Material, Bootstrap
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                NodeJS, ExpressJS, Knex
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+               {{ language ? 'Relational database and Firebase'  : 'Banco de dados relacional e Firebase' }}
+            </mat-list-item>
+    
+            
+        </div>
+    
+    </mat-list>
+</div>
+
+<div [ngClass]="slideTheme ? 'f_hotTheme': 'f'" id="f">
+    <mat-list class="matlist5">
+    
+        <div mat-subheader class="titleList">
+            SoftSkills 
+        </div>
+
+        <div mat-subheader class="subheader">{{ language? 'Interpersonal skills:' : 'Habilidades interpessoais:' }}</div>
+        
+        <div class="list_container">
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">psychology</mat-icon>
+               {{ language ? 'Patient and know how to work in a group' : 'Paciente e sabe trabalhar em grupo' }}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">psychology</mat-icon>
+                {{ language ? 'Handles criticism well' : 'Lida bem com críticas' }}
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon class="iconlist">psychology</mat-icon>
+                {{ language ? 'Outgoing and in a good mood' :'Extrovertido e de bom humor' }}
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon class="iconlist">psychology</mat-icon>
+                {{ language ? 'Focused' :'Focado' }}
+            </mat-list-item>
+        
+        </div>
+    
+    </mat-list>
+</div>
+
+<div [ngClass]="slideTheme ? 'g_hotTheme': 'g'" id="g">
+    <mat-list class="matlist6">
+    
+        <div mat-subheader class="titleList">
+            {{ language ? 'Courses and Portfolio' :'Cursos e Portifólio' }}
+        </div>
+
+        
+        <div class="list_container">
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                {{ language ? 'Modern Web Course Complete with JavaScript 2021 + Projects - Completion in 2021 - Total workload: 97 hours ' :
+                'Curso Web Moderno Completo com JavaScript 2021 + Projetos  - Conclusão em 2021 – Carga horária: 97 horas' }}
+            </mat-list-item>
+    
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                {{ language ?  'Web Development Course with ES6, TypeScript and Angular - Completion in 2021 - Total workload: 38 hours '
+                 :'Curso de Desenvolvimento Web com ES6, TypeScript e Angular – Conclusão em 2021 – Carga horária: 38 horas' }}
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon class="iconlist">laptop_chromebook</mat-icon>
+                <a href="https://github.com/AleHaritos?tab=repositories">
+                    {{ language ? 'Portfolio' : 'Portifólio' }}
+                </a>
+            </mat-list-item>
+  
+        </div>
+    
+    </mat-list>
+</div>
+
+</div>

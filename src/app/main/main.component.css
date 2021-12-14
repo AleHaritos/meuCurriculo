@@ -1,0 +1,257 @@
+.animate__animated.animate__backInDown {
+    --animate-duration: 1.5s;
+}
+
+/* red themes */
+.a_hotTheme {
+    background: linear-gradient(to right, rgba(204, 32, 9, 0.856), rgba(141, 38, 25, 0.856), rgba(212, 45, 45, 0.856));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.b_hotTheme {
+    background: linear-gradient(rgba(241, 77, 35, 0.856),rgba(204, 39, 27, 0.87), rgba(170, 23, 4, 0.904));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c_hotTheme {
+    background: linear-gradient(to right, rgba(156, 42, 22, 0.856), rgba(207, 91, 23, 0.856), rgba(233, 61, 9, 0.856));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d_hotTheme {
+    background: linear-gradient(to right, rgb(170, 59, 25), rgb(165, 56, 42), rgb(201, 81, 26));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e_hotTheme {
+    background: linear-gradient(rgb(185, 28, 28), rgb(189, 65, 48), rgb(184, 32, 32));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_hotTheme {
+    background: linear-gradient(rgba(212, 96, 28, 0.856),rgba(182, 72, 29, 0.856),rgba(216, 55, 6, 0.856));
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g_hotTheme {
+    background: linear-gradient(rgba(187, 19, 19, 0.89), rgba(187, 50, 40, 0.89), rgba(214, 24, 24, 0.89));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nome {
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome_h {
+    color: #000;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a {
+    background: linear-gradient(to right, rgba(45, 45, 156, 0.842), rgba(37, 107, 187, 0.822),  rgba(82, 132, 190, 0.822));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.b {
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient( rgba(38, 142, 228, 0.842), rgba(38, 82, 228, 0.842), rgba(38, 51, 228, 0.842));
+   display: flex;
+   align-items: center;
+}
+
+.c {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(43, 90, 151, 0.897),rgba(43, 124, 190, 0.897),rgba(43, 148, 190, 0.897) );
+    display: flex;
+    align-items: center;
+}
+
+
+.d {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(56, 45, 209), rgb(71, 6, 175), rgb(37, 6, 175));
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.e {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(72, 2, 184), rgb(22, 62, 194), rgb(64, 4, 161));
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.f {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(18, 136, 126, 0.747), rgba(18, 108, 136, 0.747), rgba(18, 73, 136, 0.747));
+    display: flex;
+    align-items: center;
+}
+
+.g {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(20, 10, 110, 0.877), rgba(32, 42, 170, 0.877), rgba(14, 26, 92, 0.877));
+    display: flex;
+    align-items: center;
+}
+
+
+.titleList {
+    font-size: 3rem;
+    color: #000;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconlist {
+    color: #000;
+    margin-right: 7px;
+}
+
+a {
+    color: black;
+}
+
+.matlist1 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.matlist2 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.matlist3 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.matlist4 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.matlist5 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.matlist6 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list_container {
+    margin-top: 40px;
+}
+
+
+.button {
+    margin-top: 20vh;
+}
+
+.button1 {
+    margin-top: 30px;
+}
+
+
+
+@media(min-width: 600px) and (max-width: 1254px) {
+    .nome {
+        font-size: 3rem;       
+    }
+
+    .nome_h {
+        font-size: 3rem;
+    }
+    
+}
+
+@media(min-width: 0px) and (max-width: 599px) {
+    .nome {
+        font-size: 2rem;       
+    }
+
+    .nome_h {
+        font-size: 2rem;
+    }
+
+    .titleList { 
+        font-size: 2rem;
+    }
+
+    .mat-list-item {
+        font-size: 0.6rem;
+    }
+
+    .titleList {
+        font-size: 1.3rem;
+    }
+
+    .subheader {
+        font-size: 0.6rem;
+    }
+}
